@@ -3,7 +3,7 @@ if (typeof define !== 'function') {
 }
 
 //define(['jsgui-lang-essentials', 'fs', 'path', 'module', 'jsgui-sprite-arrange', 'jsgui-node-png', 'jsgui-node-image'], 
-define(['jsgui-lang-essentials', 'fs', 'path', 'module', 'jsgui-sprite-arrange', 'jsgui-node-png', 'jsgui-node-image'], 
+define(['../core/jsgui-lang-essentials', 'fs', 'path', 'module', './jsgui-sprite-arrange', './jsgui-node-png', './jsgui-node-image'], 
     function(jsgui, fs, path, module, jsgui_sprite_arrange, node_png, node_image) {
 
         var Pixel_Buffer = require('./jsgui-node-pixel-buffer');
@@ -71,7 +71,7 @@ define(['jsgui-lang-essentials', 'fs', 'path', 'module', 'jsgui-sprite-arrange',
                 //var dest_file_name = 
                 
                 // can create a pixel buffer of the right size...
-                
+                //console.log('rgba_buffer_from_files ');
                 jsgui_sprite_arrange.from_files(sources_paths, function(err, res_arranged_images) {
                     // go through the arranged images, putting them into place.
                     

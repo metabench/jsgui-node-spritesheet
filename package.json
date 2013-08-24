@@ -1,30 +1,28 @@
 {
-  "name": "jsgui-node-sprite",
-  "description": "Efficiently creates sprites",
-  "version": "0.4.0",
-  "homepage": "http://github.com/metabench/jsgui-node-sprite",
-  "author": {
-    "name": "James Vickers",
-    "email": "james@metabench.com"
-  },
-  "licenses": [
-    {}
-  ],
-  "bin": {
-    "sprite": "./bin/jsgui-node-sprite"
-  },
-  "main": "./jsgui-node-sprite.js",
-  "dependencies": {
-    "requirejs": "~2.1.4",
-    "jsgui-lang-essentials": "~0.4.0",
-    "jsgui-sprite-arrange": "~0.3.8",
-    "jsgui-node-image": "~0.4.0",
-    "jsgui-node-png": "~0.4.0",
-    "jsgui-node-pixel-buffer": "~0.1.0",
-    "commander": "~1.1.1",
-    "amdefine": ">=0.0.4"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  }
+    "name": "jsgui-node-sprite",
+    "description": "Efficiently creates sprites",
+    "version": "0.4.2",
+    "homepage": "http://github.com/metabench/jsgui-node-sprite",
+    "author": {
+        "name": "James Vickers",
+        "email": "james@metabench.com"
+    },
+    "licenses": [{}],
+    "bin": {
+        "sprite": "./bin/jsgui-node-sprite"
+    },
+    "main": "./jsgui-node-sprite.js",
+    "dependencies": {
+        "requirejs": "~2.1.4",
+        "jsgui-lang-essentials": "~0.4.0",
+        "jsgui-sprite-arrange": "~0.3.8",
+        "jsgui-node-image": "~0.4.0",
+        "jsgui-node-png": "~0.4.0",
+        "jsgui-node-pixel-buffer": "~0.1.0",
+        "commander": "~1.1.1",
+        "amdefine": ">=0.0.4"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    }
 }
