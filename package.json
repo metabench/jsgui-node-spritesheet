@@ -1,7 +1,7 @@
 {
     "name": "jsgui-node-sprite",
     "description": "Efficiently creates sprites",
-    "version": "0.4.11",
+    "version": "0.4.12",
     "homepage": "http://github.com/metabench/jsgui-node-sprite",
     "author": {
         "name": "James Vickers",
@@ -18,7 +18,7 @@
         "jsgui-sprite-arrange": "~0.3.8",
         "jsgui-node-image": "~0.1.0",
         "jsgui-node-png": "~0.4.0",
-        "jsgui-node-pixel-buffer": "~0.1.0",
+        "jsgui-node-pixel-buffer": "~0.4.0",
         "commander": "~1.1.1",
         "amdefine": ">=0.0.4"
     },
