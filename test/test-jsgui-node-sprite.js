@@ -40,7 +40,7 @@ define(['jsgui-lang-essentials', 'fs', 'path', 'jsgui-node-sprite', 'jsgui-node-
                 
                     // var save_rgba_pixel_buffer_to_disk = function(rbga_buffer, dest_path, callback)
                 
-                    jsgui_node_png.save_rgba_pixel_buffer_to_disk(res, dest_path, function(err, res) {
+                    jsgui_node_png.save_pixel_buffer_to_disk(res, dest_path, function(err, res) {
                         console.log('done save');
                     })
                 
@@ -69,7 +69,7 @@ define(['jsgui-lang-essentials', 'fs', 'path', 'jsgui-node-sprite', 'jsgui-node-
                 
                     // var save_rgba_pixel_buffer_to_disk = function(rbga_buffer, dest_path, callback)
                 
-                    jsgui_node_png.save_rgba_pixel_buffer_to_disk(res, dest_path, {'scanline_encoding': 4}, function(err, res) {
+                    jsgui_node_png.save_pixel_buffer_to_disk(res, dest_path, {'scanline_encoding': 4}, function(err, res) {
                         console.log('done save');
                     })
                 
@@ -99,7 +99,7 @@ define(['jsgui-lang-essentials', 'fs', 'path', 'jsgui-node-sprite', 'jsgui-node-
                 
                     // var save_rgba_pixel_buffer_to_disk = function(rbga_buffer, dest_path, callback)
                     //png.ensure_unfiltered_scanlines_buffer();
-                    jsgui_node_png.save_rgba_pixel_buffer_to_disk(res, dest_path, {'optimize': 'best'}, function(err, res) {
+                    jsgui_node_png.save_pixel_buffer_to_disk(res, dest_path, {'optimize': 'best'}, function(err, res) {
                         console.log('done save');
                     })
                 

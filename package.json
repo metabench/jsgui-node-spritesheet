@@ -1,7 +1,7 @@
 {
     "name": "jsgui-node-sprite",
     "description": "Efficiently creates sprites",
-    "version": "0.4.8",
+    "version": "0.4.9",
     "homepage": "http://github.com/metabench/jsgui-node-sprite",
     "author": {
         "name": "James Vickers",
