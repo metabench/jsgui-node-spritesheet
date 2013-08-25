@@ -2,12 +2,12 @@ if (typeof define !== 'function') {
     var define = require('amdefine')(module);
 }
 
-//define(['jsgui-lang-essentials', 'fs', 'path', 'module', 'jsgui-sprite-arrange', 'jsgui-node-png', 'jsgui-node-image'], 
-define(['../core/jsgui-lang-essentials', 'fs', 'path', 'module', './jsgui-sprite-arrange', './jsgui-node-png', './jsgui-node-image'], 
+define(['jsgui-lang-essentials', 'fs', 'path', 'module', 'jsgui-sprite-arrange', 'jsgui-node-png', 'jsgui-node-image'], 
     function(jsgui, fs, path, module, jsgui_sprite_arrange, node_png, node_image) {
 
         var Pixel_Buffer = require('./jsgui-node-pixel-buffer');
         
+//define(['jsgui-lang-essentials', 'fs', 'path', 'module', 'jsgui-sprite-arrange', 'jsgui-node-png', 'jsgui-node-image'], 
 
 //define(['jsgui-lang-essentials', 'fs', 'path', 'module', 'jsgui-sprite-arrange', 'jsgui-node-png', 'jsgui-node-image', 'jsgui-node-pixel-buffer'], 
 //    function(jsgui, fs, path, module, jsgui_sprite_arrange, node_png, node_image, Pixel_Buffer) {
